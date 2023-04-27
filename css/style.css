@@ -11,12 +11,16 @@ body, ul{
     color: black;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    transition: 0.3s;
 }
 
 #menu a:hover{
-  background-color: #F2CB57;
-  font-size: 15px;
+  color: #F2CB57;
+  font-size: 1.6em;
+  transition: 0.3s;
+  text-shadow: 4px 4px 6px #0000007A;
 }
 
 #logo img{
@@ -33,6 +37,8 @@ body, ul{
     position: relative;
     top: 100px;
     left: 10px;
+    box-shadow: 4px 4px 6px #0000007A;
+    transition: 0.3s;
   }
  
 
@@ -57,4 +63,15 @@ body, ul{
 
 #btn-mobile{
   display: none;
+}
+
+#carouselExampleInterval{
+  position: relative;
+  z-index: 10;
+  padding-top: 85px;
+  width: 100%;
+}
+
+#carouselExampleInterval img{
+  height: 600px;
 }
