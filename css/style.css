@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display);
 /* Arquivo responsável pelos estilos */
 /* Aula 24/04/2023 - Estilos do Menu */
 
@@ -55,6 +56,13 @@ body, ul{
   background-color: #93C73F;
 }
 
+#header h1{
+  font-family: Playfair Display;
+  color: #F2CB57;
+  float: left;
+
+}
+
 #menu {
   display: flex;
   list-style: none;
@@ -72,7 +80,7 @@ body, ul{
 }
 
 #carouselExampleInterval img{
-  height: 500px;
+  height: auto;
   width: auto;
 }
 
@@ -113,4 +121,53 @@ body, ul{
   background-color: #F2CB57 ;
   padding: 4px 14px;
   font-size: 15px;
+}
+/* Fim css Banner */
+
+/* Início css destaque */
+.destaque h2,h4{
+  margin-top: 15px;
+  color: #93C73F;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.destaque p{
+  width: 77%;
+  text-align: center;
+  font-size: 14px;
+  margin: 30px auto;
+}
+
+.destaque figcaption{
+  font-size: 13px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+} 
+
+.destaque a{
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: #F2CB57;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.destaque a:hover {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: #93C73F;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.destaque img{
+  height: 100%;
 }
