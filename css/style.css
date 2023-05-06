@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display);
+
+@import url(https://fonts.google.com/css2family=Vidaloka);
 /* Arquivo responsável pelos estilos */
 /* Aula 24/04/2023 - Estilos do Menu */
 
@@ -57,8 +58,8 @@ body, ul{
 }
 
 #header h1{
-  font-family: Playfair Display;
-  color: #F2CB57;
+  font-family:'Vidaloka';
+  color: black;
   float: left;
 
 }
@@ -73,16 +74,26 @@ body, ul{
   display: none;
 }
 
+.carousel-inner .carousel-item img{
+  width: 100%;
+  margin: auto;
+  max-height: 600px;
+  padding-top: 85px;
+}
+/*
 #carouselExampleInterval{
   position: relative;
   z-index: 10;
   padding-top: 75px;
+  gap: 0,5rem;
+   width: 100%;
 }
 
-#carouselExampleInterval img{
+ #carouselExampleInterval img{ 
   height: auto;
   width: auto;
 }
+*/
 
 /*CSS Estilos Banner*/
 .section-banner-home{
