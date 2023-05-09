@@ -1,31 +1,31 @@
-
 @import url(https://fonts.google.com/css2family=Vidaloka);
 /* Arquivo responsável pelos estilos */
 /* Aula 24/04/2023 - Estilos do Menu */
 
 
-body, ul{
-    margin: 0px;
-    padding: 0px;
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 #menu a {
-    color: black;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 1.25em;
-    text-transform: uppercase;
-    transition: 0.3s;
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  transition: 0.3s;
 }
 
-#menu a:hover{
+#menu a:hover {
   color: #F2CB57;
   font-size: 1.6em;
   transition: 0.3s;
   text-shadow: 4px 4px 6px #0000007A;
 }
 
-#logo img{
+#logo img {
   float: left;
   height: 55px;
   position: relative;
@@ -33,22 +33,22 @@ body, ul{
   left: 10px;
 }
 
-#logo img:hover{
-    float: left;
-    height: 200px;
-    position: relative;
-    top: 100px;
-    left: 10px;
-    box-shadow: 4px 4px 6px #0000007A;
-    transition: 0.3s;
-  }
- 
+#logo img:hover {
+  float: left;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 10px;
+  box-shadow: 4px 4px 6px #0000007A;
+  transition: 0.3s;
+}
 
-#header{
+
+#header {
   width: 100%;
   position: fixed;
   z-index: 90;
-  box-sizing:border-box;
+  box-sizing: border-box;
   height: 75px;
   padding: 1rem;
   display: flex;
@@ -57,8 +57,8 @@ body, ul{
   background-color: #93C73F;
 }
 
-#header h1{
-  font-family:'Vidaloka';
+#header h1 {
+  font-family: 'Vidaloka';
   color: black;
   float: left;
 
@@ -70,16 +70,17 @@ body, ul{
   gap: 0.8rem;
 }
 
-#btn-mobile{
+#btn-mobile {
   display: none;
 }
 
-.carousel-inner .carousel-item img{
+.carousel-inner .carousel-item img {
   width: 100%;
   margin: auto;
   max-height: 600px;
   padding-top: 85px;
 }
+
 /*
 #carouselExampleInterval{
   position: relative;
@@ -96,7 +97,7 @@ body, ul{
 */
 
 /*CSS Estilos Banner*/
-.section-banner-home{
+.section-banner-home {
   width: 100%;
   height: 500px;
   margin-top: 10px;
@@ -104,39 +105,41 @@ body, ul{
   background-color: #93C73F;
 }
 
-.section-banner-home img{
+.section-banner-home img {
   height: 400px;
   width: auto;
 }
 
-.section-banner-home .texto-banner{
+.section-banner-home .texto-banner {
   margin-top: 30px;
   font-size: 22px;
 }
 
-.section-banner-home .texto-banner h1{
+.section-banner-home .texto-banner h1 {
   font-size: 30px;
   width: 60%;
   font-weight: 500;
   padding-bottom: 20px;
 }
 
-.section-banner-home .texto-banner p{
+.section-banner-home .texto-banner p {
   font-size: 15px;
   margin-bottom: 20px;
 }
 
-.section-banner-home .texto-banner a{
+.section-banner-home .texto-banner a {
   color: black;
   text-decoration: none;
-  background-color: #F2CB57 ;
+  background-color: #F2CB57;
   padding: 4px 14px;
   font-size: 15px;
 }
+
 /* Fim css Banner */
 
 /* Início css destaque */
-.destaque h2,h4{
+.destaque h2,
+h4 {
   margin-top: 15px;
   color: #93C73F;
   text-align: center;
@@ -144,22 +147,22 @@ body, ul{
   font-weight: bold;
 }
 
-.destaque p{
+.destaque p {
   width: 77%;
   text-align: center;
   font-size: 14px;
   margin: 30px auto;
 }
 
-.destaque figcaption{
+.destaque figcaption {
   font-size: 13px;
   color: #000;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
-} 
+}
 
-.destaque a{
+.destaque a {
   justify-content: center;
   display: flex;
   text-decoration: none;
@@ -179,6 +182,63 @@ body, ul{
   margin: 30px 0;
 }
 
-.destaque img{
+.destaque img {
   height: 100%;
+}
+
+/* Fim CSS Destaque  */
+
+/* Início CSS novidades */
+
+.novidades{
+  background-color: #93C73F;
+}
+.novidades img {
+ padding-top: 5%;
+}
+
+.novidades .text-body {
+  width: 80%;
+  margin: 70px auto;
+}
+
+.novidades h2 {
+  color: #000;
+
+}
+
+.novidades p {
+  color: #000;
+
+}
+
+.novidades a{
+  color: #93C73F;
+  text-decoration: underline;
+  text-decoration: #000;
+  padding: 6px 12px;
+  background-color: #F2CB57;
+  font-weight: 400;
+}
+/* Fim CSS novidades */
+/* Início CSS Galeria */
+
+.galeria {
+  margin: 60px auto 20 px;
+}
+
+.galeria h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.galeria p {
+  text-align: center;
+  width: 50%;
+  margin: 14px auto 50px;
+}
+
+.galeria .gallery {
+  width: 30%;
+  margin: 14px auto 50 px;
 }
