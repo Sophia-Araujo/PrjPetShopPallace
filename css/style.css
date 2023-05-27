@@ -450,13 +450,13 @@ ul {
   text-transform: uppercase;
 }
 
-.heading{
+.text-left{
   border-bottom: 1px solid #77B9F2;
   padding-bottom: 9px;
   position: relative;
 }
 
-.heading span{
+.text-left span{
   background: #77B9F2 none repeat scroll 0 0;
   bottom: -2px;
   height: 0;
@@ -465,48 +465,52 @@ ul {
   width: 75px;
 }
 
-.form{
+.form-horizontal{
   border-radius: 7px;
   padding: 6px
 }
 
-.txt[type="text"]{
+.form-control[type="text"]{
   border: 1px solid #000;
   margin: 10px 0;
   padding: 10px 0 10px 5px;
   width: 100%;
 }
+.form-control[type="email"] {
+    border: 1px solid #000;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
 
-.txt_3[type="text"]{
+.form-control-msg[type="text"]{
   margin: 10px 0 0;
   padding: 10px 0 10px 5px;
   width: 100%;
 }
-
-.formbutton[type="submit"]{
-  -moz-box-shadow: inset 0px 1px 0px 0px  #5e8df5;
-  -webkit-box-shadow:inset 0px 1px 0px 0px  #619cdf;
-  box-shadow:inset 0px 1px 0px 0px #77B9F2 ;
-  background-color: #77B9F2;
-  display: inline-block;
-  border: 1px solid #77B9F2;
-  border-radius: 25px;
-  color: #F2E7DC;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 10px 0;
-  padding: 0;
-  text-transform: uppercase;
-  width: 30%;
+.formbutton[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #87c0e6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #87c0e6;
+    box-shadow: inset 0px 1px 0px 0px #87c0e6;
+    background-color: #77B9F2;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 30%;
 }
-
-.formbutton:hover{
-  background-color:#80cfe7;
+.formbutton:hover {
+    background-color: #31a1de;
 }
-
-.formbutton:active{
-  position: relative;
-  top: 1px;
+.formbutton:active {
+    position: relative;
+    top: 1px;
 }
 
 .txt2:hover{
@@ -515,3 +519,45 @@ ul {
   transition: all 0.5s ease 0s;
 }
 /* Fim CSS contato */
+/* Início CSS quem somos nós */
+.quem{
+  padding-top: 100px;
+}
+
+.quem .quembanner{
+  width: 100%;
+  margin-top: 10px;
+  padding: 50px;
+  background-color: #77B9F2;
+}
+
+.quemdes{
+  padding-top: 80px;
+}
+
+.quem h1{
+  font-size: 30px;
+  width: 60%;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.quem p{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+
+/* Fim CSS quem somos nós */
+/* Início CSS mapa */
+.map{
+  width: auto;
+  height: auto;
+}
+
+.map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+/* Fim CSS mapa */
