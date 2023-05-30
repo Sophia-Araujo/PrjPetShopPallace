@@ -551,8 +551,8 @@ ul {
 /* Fim CSS quem somos nós */
 /* Início CSS mapa */
 .map{
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 300px;
 }
 
 .map iframe{
@@ -561,3 +561,35 @@ ul {
 }
 
 /* Fim CSS mapa */
+/* Início whatsapp */
+.whatsapp{
+  position: fixed;
+  z-index: 2;
+  top: 200px;
+  right: 20px;
+}
+
+.whatsapp img{
+  height: 60px;
+}
+
+.whatsapp .pulando{
+  border-radius: 100%;
+  width: 50px;
+  width: 50px;
+  animation: pulando .4s cubic-bezier(.53,-0.03,.67,1.06);
+  animation-direction: alternate;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes pulando {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(100%);
+    width: 70px;
+    height: 40px;
+  }
+}
+/* Fim whatsapp */
