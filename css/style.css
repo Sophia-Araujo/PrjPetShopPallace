@@ -352,11 +352,10 @@ ul {
   background-color: #77B9F2;
 }
 
-.rodape .container img{
+.rodape .container #img-logo{
   height:50%;
   width: 50%;
 }
- 
 
 .rodape .info-contato p {
   margin: 0;
@@ -590,23 +589,38 @@ ul {
   height: 60px;
 }
 
-.whatsapp .pulando{
-  border-radius: 100%;
-  width: 50px;
-  width: 50px;
-  animation: pulando .4s cubic-bezier(.53,-0.03,.67,1.06);
-  animation-direction: alternate;
-  animation-iteration-count: infinite; 
+/* Pisca-pisca icones */
+.whatsapp .pulse{
+  animation: pulse 0.7s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  animation-direction: top;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
 }
 
-@keyframes pulando {
+@-webkit-keyframes pulse{
   0%{
-    transform: translateY(0px);
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
   }
   100%{
-    transform: translateY(100%);
-    width: 70px;
-    height: 40px;
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(120%);
   }
 }
+
+@keyframes pulse{
+  0%{
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100%{
+    transform: scale(1.1);
+    filter: brightness(110%);
+  }
+}
+/*-----------------------------------*/
+
 /* Fim whatsapp */
